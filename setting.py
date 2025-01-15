@@ -1,7 +1,11 @@
 class Settings:
-    """A class to store all settings for Alien Invasion."""
+    """En klasse for å lagre alle innstillinger for spillet."""
+
     def __init__(self):
-        """Initialize the game's settings."""
-        self.screen_witdh = 1200
-        self.screen_height = 800
-        self.bg_color = (28, 37, 60)
+        """Initialiserer spillets innstillinger."""
+        self.screen_witdh = 1200  # Skjermens bredde
+        self.screen_height = 800  # Skjermens høyde
+        self.bg_color = (28, 37, 60)  # Bakgrunnsfargen (RGB-verdi)
+
+        # Skipets innstillinger
+        self.ship_speed = 0.2  # Hvor raskt skipet beveger seg
