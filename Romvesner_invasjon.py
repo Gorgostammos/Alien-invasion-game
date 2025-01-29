@@ -61,4 +61,5 @@ if __name__ == '__main__':
     ai.run_game()  # Starter spillet
 
 
-## er på side 245
+
+## er på side 245ddfd
